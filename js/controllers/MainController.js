@@ -2,15 +2,15 @@ myApp.controller("MainController", function ($scope)
 {
   number = 0;
   list = new Array;
-  for (var i = 0; i < AllList.telescop.length; i++)
+  for (var i = 0; i < AllList.guns.length; i++)
   {
     list[i] =
     {
-      name: AllList.telescop[i].name,
-      price: AllList.telescop[i].price,
-      imgURL: AllList.telescop[i].imgURL,
+      name: AllList.guns[i].name,
+      price: AllList.guns[i].price,
+      imgURL: AllList.guns[i].imgURL,
       alt: "telescop",
-      targetURL: String(AllList.telescop[i].index)
+      targetURL: String(AllList.guns[i].index)
     };
 
   }

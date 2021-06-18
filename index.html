@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru" ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/article.css">
+    <link rel="stylesheet" href="css/price.css">
+  </head>
+  <body>
+    <header>
+      <h1>Ружья</h1>
+    </header>
+    <nav>
+      <a href="#!main">Главная</a>
+      <a href="#!contacts">Контакты</a>
+      <a href="#!blog">Новости</a>
+    </nav>
+
+    <ng-view></ng-view>
+
+    <footer>
+    </footer>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script type="text/javascript" src="https://code.angularjs.org/1.8.2/angular-route.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/controllers/Catalog.js"></script>
+    <script type="text/javascript" src="js/controllers/MainController.js"></script>
+    <script type="text/javascript" src="js/controllers/PriceController.js"></script>
+    <script type="text/javascript" src="js/controllers/ArticleController.js"></script>
+    <script type="text/javascript" src="js/controllers/BlogController.js"></script>
+    <script type="text/javascript" src="js/controllers/ContactsController.js"></script>
+  </body>
+</html>

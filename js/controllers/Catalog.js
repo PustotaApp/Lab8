@@ -1,81 +1,79 @@
 var AllList =
 {
-  telescop:
+  guns:
   [
     {
       index: 0,
-      name: "Монитор AOC 24B1H",
-      price: 263,
+      name: "РУЖЬЁ BENELLI VINCI BLACK COMBO 12/76",
+      price: 2 758,
+      manufacturer: "BENELLI",
+      type: "semi-automatic",
+      dmm: 760, //Длина ствола
       size: "108.0×37.0×23.0",
-      imgURL: "img/moni/BK1149EQ1.png"
+      imgURL: "img/guns/vinci_black.png"
     },
     {
       index: 1,
-      name: "Монитор AOC 24G2U5/BK",
-      price: 777,
-      mount: "AZ-GTe SynScan GOTO",
+      name: "РУЖЬЁ BENELLI MONTEFELTRO 20/76",
+      price: 2 496,
+      manufacturer: "BENELLI",
+      type: "semi-automatic",
+      dmm: 710, //Длина ствола
       size: "85.0×43.5×26.0",
-      imgURL: "img/moni/MAK102.png"
+      imgURL: "img/guns/montefeltro.png"
     },
     {
       index: 2,
-      name: "Монитор AOC I2481FXH",
-      price: 255,
-      manufacturer: "Bresser ",
+      name: "РУЖЬЁ BENELLI MONTEFELTRO SYNTHETIC NEW 12/76",
+      price: 1 931,
+      manufacturer: "BENELLI",
       type: "Reflector",
-      dmm: 76, //Диаметр главного зеркала
-      focus: 700,
-      mount: "Azimuthal",
+      dmm: 760, //Длина ствола
       size: "83.0×31.0×26.0",
-      imgURL: "img/moni/BresserVenus.png"
+      imgURL: "img/guns/montefeltro_synthetic.png"
     },
     {
       index: 3,
-      name: "Монитор AOC C27G2U/BK",
-      price: 944,
-      manufacturer: "Sky-Watcher",
-      type: "Catadioptric",
-      dmm: 127, //Диаметр главного зеркала
-      focus: 1500,
-      mount: "Equatorial mount EQ3-2",
+      name: "РУЖЬЁ BENELLI RAFFAELLO 2013 12/76",
+      price: 3 765,
+      manufacturer: "BENELLI",
+      type: "semi-automatic",
+      dmm: 760, //Длина ствола
       size: "101.0×28.0×45.5",
-      imgURL: "img/moni/MAK127.png"
+      imgURL: "img/guns/raffaello.png"
     },
     {
       index: 4,
-      name: "Монитор AOC C32G2AE/BK",
-      price: 1067,
-      manufacturer: "Sky-Watcher",
-      type: "Reflector",
-      dmm: 200, //Диаметр главного зеркала
+      name: "РУЖЬЁ BENELLI VINCI CAMO MAX-5 12/76",
+      price: 3 268,
+      manufacturer: "BENELLI",
+      type: "semi-automatic",
+      dmm: 710, //Длина ствола
       focus: 1000,
-      mount: "Equatorial mount EQ5",
       size: "106.0×104.0×30.0",
-      imgURL: "img/moni/P2001.png"
+      imgURL: "img/guns/camo_max.png"
     },
     {
       index: 5,
-      name: "Монитор AOC G2590PX",
-      price: 420,
-      manufacturer: "Sky-Watcher",
-      type: "Reflector",
-      dmm: 114, //Диаметр главного зеркала
+      name: "РУЖЬЁ BENELLI М2 PRACTICAL 26 12/76",
+      price: 2 551,
+      manufacturer: "BENELLI",
+      type: "semi-automatic",
+      dmm: 660, //Длина ствола
       focus: 500,
-      mount: "Dobson Automated Mount",
       size: "59.0×35.5×34.0",
-      imgURL: "img/moni/dob114500.png"
+      imgURL: "img/guns/practical.png"
     },
     {
       index: 6,
-      name: "Монитор AOC CQ32G2SE/BK",
-      price: 3555,
-      manufacturer: "Sky-Watcher",
-      type: "Refractor",
-      dmm: 150, //Диаметр главного зеркала
+      name: "РУЖЬЁ BERETTA A 400 XPLOR 12/89",
+      price: 2 275,
+      manufacturer: "BENELLI",
+      type: "semi-automatic",
+      dmm: 760, //Длина ствола
       focus: 1200,
-      mount: "Equatorial mount EQ6",
       size: "166.0×54.0×31.0",
-      imgURL: "img/moni/BK15012.png"
+      imgURL: "img/guns/xplor.png"
     }
   ]
 }

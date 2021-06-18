@@ -1,0 +1,66 @@
+h1, h2, p, a
+{
+color: #8c6c2b;
+}
+
+body
+{
+  background: #decaa2;
+  text-align: center;
+}
+
+header
+{
+  position: relative;
+  top: 2%;
+  width: 80%;
+  border-radius: 20%;
+  border-bottom: solid .5vmin #000;
+  margin: 0px auto;
+  margin-bottom: 7vmin;
+  z-index: 99;
+}
+h1
+{
+	color: #8c6c2b;
+  font-family: Comic Sans MS;
+  font-size: 9vmin;
+}
+nav
+{
+  font-family: Comic Sans MS;
+  position: fixed;
+  left: 2vw;
+  top: 40vmin;
+  width: 18vw;
+  height: 35vmin;
+  padding: 1%;
+  z-index: 98;
+  background-color: black;
+	opacity:30%;
+}
+nav a
+{
+  display: block;
+  color: #8c6c2b;
+  text-decoration: none;
+  margin-bottom: 5%;
+  font-size: 5.1vmin;
+  transition: all .2s linear;
+}
+nav a:hover
+{
+  /* border-bottom: solid .2vmin #fff; */
+font-size: 7vmin;
+color: #d4b983;
+}
+
+footer
+{
+	height:70px;
+	color: #fff;
+  width: 100%;
+  background-color: black;
+	opacity:30%;
+  margin-top: 15%;
+}
