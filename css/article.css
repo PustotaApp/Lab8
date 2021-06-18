@@ -1,0 +1,15 @@
+h2
+{
+  font-size: 5vmin;
+}
+
+#article p
+{
+  text-align: left;
+  font-size: 3.5vmin;
+}
+
+#present-img
+{
+  max-width: 70vw;
+}

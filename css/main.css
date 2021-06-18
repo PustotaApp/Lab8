@@ -1,0 +1,73 @@
+#slider-price-main /* окно слайдера */
+{
+  position: relative;
+  left: 24vw;
+  width: 70vw;
+  height: 30vmin;
+  margin-top: 4vmin;
+}
+#slider-price-buy /* кнопка покупки */
+{
+  position: absolute;
+  bottom: 2%;
+  right: 20%;
+  padding: 2%;
+  border-radius: 50%;
+  background: #0034af99;
+  font-size: 4vmin;
+}
+
+#slider-price-name /* имя товара */
+{
+  position: absolute;
+  top: -4vmin;
+  right: 0px;
+  width: 100vw;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 4vmin;
+}
+#slider-price-price /* цена товара */
+{
+  position: absolute;
+  bottom: 2%;
+  left: 30%;
+  font-size: 3vmin;
+}
+#slider-img
+{
+  position: absolute;
+  bottom: 0px;
+  left: auto;
+  right: auto;
+  height: 25vmin;
+}
+#slider-price-left {left: 0px;}
+#slider-price-right {right: 0px;}
+.slider-price-button /* кнопки перелистывания */
+{
+  position: absolute;
+  bottom: 2%;
+  width: 15vmin;
+  height: 80%;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 4vmin;
+  background: #00000000;
+  transition: background .2s linear;
+  outline: 0 !important;
+  text-shadow: 0px 0px 3vmin  #aaf;
+}
+.slider-price-button:hover {background: #00000055;}
+section
+{
+  position: relative;
+  left: 24vw;
+  width: 70vw;
+}
+section p:
+{
+  width: 80%
+  text-shadow: none;
+  font-size: 3vmin;
+}
