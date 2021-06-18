@@ -1,0 +1,16 @@
+h4
+{
+  font-size: 4vmin;
+  color: #ffffff;
+}
+
+#catalog ol
+{
+  text-align: left;
+}
+
+#catalog a
+{
+  font-size: 3.5vmin;
+  text-decoration: none;
+}
